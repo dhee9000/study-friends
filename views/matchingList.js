@@ -7,8 +7,6 @@ export class MatchingList extends Component{
             <View style = {{
                 flex: 1,
                 flexDirection: 'column',
-                justifyContent: 'center',
-                alignItems: 'stretch',
             }}>
             <Text style= {{
                 fontWeight: 'bold',
@@ -16,7 +14,6 @@ export class MatchingList extends Component{
                 flex: 1,
                 flexDirection: 'column',
                 justifyContent: 'flex-start',
-                alignItems: 'stretch',
                 fontSize: 24,
                 }}>
                 Name:
@@ -24,9 +21,6 @@ export class MatchingList extends Component{
                     Nikhil Kulkarni
                 </Text>
             </Text>
-            <View style= {{backgroundColor: 'powderblue'}} />
-            <View style= {{backgroundColor: 'powderblue'}} />
-            <View style= {{backgroundColor: 'powderblue'}} />
             </View>
         );
     }
