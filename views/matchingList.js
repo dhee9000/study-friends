@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {AppRegistry, Platform, StyleSheet, Text, View} from 'react-native';
 
-export default class matchingList extends Component{
+export class MatchingList extends Component{
     render(){
         return(
             <View style = {{
@@ -10,9 +10,17 @@ export default class matchingList extends Component{
                 justifyContent: 'center',
                 alignItems: 'stretch',
             }}>
-            <Text style= {{fontWeight: 'bold', color: 'red'}}>
+            <Text style= {{
+                fontWeight: 'bold',
+                color: 'red',
+                flex: 1,
+                flexDirection: 'column',
+                justifyContent: 'flex-start',
+                alignItems: 'stretch',
+                fontSize: 24,
+                }}>
                 Name:
-                <Text style= {{color: 'white'}}>
+                <Text style= {{color: 'black'}}>
                     Nikhil Kulkarni
                 </Text>
             </Text>
