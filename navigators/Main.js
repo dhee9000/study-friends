@@ -3,8 +3,7 @@ import { createMaterialBottomTabNavigator } from 'react-navigation-material-bott
 import {HomePage} from "../views/HomePage";
 import {StudyPage} from "../views/StudyPage";
 import {ChatPage} from "../views/ChatPage";
-
-import {ProfilePage} from "../views/ProfilePage";
+import {Profile as ProfilePage} from "../views/Profile";
 
 
 
