@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-import {MatchingList} from './views/MatchingList';
+import {View, Text} from 'react-native';
+import AppContainer from './navigators/Login';
 
 export default class App extends Component {
+
   render() {
-    return (
-      <View>
-        <MatchingList></MatchingList>
-      </View>
-    );
+    return(
+        <AppContainer />
+        );
   }
+
 }
