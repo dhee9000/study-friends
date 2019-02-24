@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
-import Styles from '../styles/Styles';
+import styles from '../styles/Styles';
 
 export class HomePage extends Component {
     render () {
