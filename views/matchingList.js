@@ -4,10 +4,10 @@ import {AppRegistry, TextInput, Platform, StyleSheet, Text, View} from 'react-na
 export class MatchingList extends Component{
     
     render(){
-        let name, time1, time2, univ, major, loc, year, class1;
-        name = 'Nikhil Kulkarni', time1 = 1, time2= 2, univ = 'UT Dallas', major = 'CS', loc = 'ECSS', year = 'Freshman', class1 = 'CS 1336';
+        let name, time1, time2, univ, major, loc, year, class1, numberOfMatches;
+        name = 'Nikhil Kulkarni', time1 = 1, time2= 2, univ = 'UT Dallas', major = 'CS', loc = 'ECSS', year = 'Freshman', class1 = 'CS 1336', numberOfMatches = 5;
         return(
-            <View style={styles.viewStuff}>
+                <View style={styles.viewStuff}>
                 <Text style={styles.textTitle}>Name: 
                 <Text style={styles.textInfo}> {name}                                  </Text>
                 <Text style={styles.textTitle}>Time: </Text>
