@@ -5,8 +5,8 @@ import styles from '../styles/Styles';
 export class HomePage extends Component {
     render () {
         return (
-            <View style = {Styles.viewStyle}>
-                <Text style = {Styles.normalText}>Home!</Text>
+            <View style = {styles.viewStyle}>
+                <Text style = {styles.normalText}>Home!</Text>
             </View>
         );
     }
